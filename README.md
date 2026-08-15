@@ -6,9 +6,9 @@
 My role-focused case study of the wearable health telemetry project — an exploratory ML study
 on synthetic cardiovascular signals, wrapped in a full-stack demonstration. Unlike my
 [Midnight case study](https://github.com/Johaan-Mannanal/midnight-product-case-study), the
-source here is fully public: **[Rhythm360/telemetry-healthcare](https://github.com/Rhythm360/telemetry-healthcare)**.
+source here is fully public: **[Rhthm360/telemetry-healthcare](https://github.com/Rhthm360/telemetry-healthcare)**.
 
-> Team-voiced case study: [CASE_STUDY.md in the main repo](https://github.com/Rhythm360/telemetry-healthcare/blob/main/CASE_STUDY.md).
+> Team-voiced case study: [CASE_STUDY.md in the main repo](https://github.com/Rhthm360/telemetry-healthcare/blob/main/CASE_STUDY.md).
 > **Synthetic data only. Not a medical device.**
 
 ## One-sentence description
@@ -33,7 +33,7 @@ end). My side of the split:
 ## Verified results (from the public repo)
 
 Reproduced from the shipped code with seed 42 — source of truth is
-[results/metrics.csv](https://github.com/Rhythm360/telemetry-healthcare/blob/main/results/metrics.csv):
+[results/metrics.csv](https://github.com/Rhthm360/telemetry-healthcare/blob/main/results/metrics.csv):
 
 | Model | Task | Headline |
 |-------|------|----------|
@@ -44,7 +44,7 @@ Reproduced from the shipped code with seed 42 — source of truth is
 
 Because the data is synthetic and separable by design, these results measure the pipeline,
 not clinical performance — stated plainly in the
-[model card](https://github.com/Rhythm360/telemetry-healthcare/blob/main/MODEL_CARD.md).
+[model card](https://github.com/Rhthm360/telemetry-healthcare/blob/main/MODEL_CARD.md).
 
 ## Full story
 
@@ -53,6 +53,6 @@ what worked and what didn't, and what I'd do differently.
 
 ## Links
 
-- **Main repo (public source):** [Rhythm360/telemetry-healthcare](https://github.com/Rhythm360/telemetry-healthcare)
+- **Main repo (public source):** [Rhthm360/telemetry-healthcare](https://github.com/Rhthm360/telemetry-healthcare)
 - **My personal case study, in depth:** [CASE_STUDY.md](CASE_STUDY.md)
 - **Portfolio:** [johaan.dev](https://johaan.dev)

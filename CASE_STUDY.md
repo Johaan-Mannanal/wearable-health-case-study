@@ -1,7 +1,7 @@
 # Wearable Health Telemetry — Johaan's Case Study
 
 > My personal perspective on the project. The team story lives in the
-> [main repo's CASE_STUDY.md](https://github.com/Rhythm360/telemetry-healthcare/blob/main/CASE_STUDY.md);
+> [main repo's CASE_STUDY.md](https://github.com/Rhthm360/telemetry-healthcare/blob/main/CASE_STUDY.md);
 > the technical source of truth is the repo itself. **Synthetic data only. Not a medical device.**
 
 ## 1. Why this project
@@ -26,7 +26,7 @@ iOS app and backend are applied extras that show the pipeline serving a client.
 
 - **Synthetic data generation** designed to resemble Apple Watch / HealthKit signal
   characteristics — so the data's provenance is fully known and publishable
-  ([DATA_ACCESS.md](https://github.com/Rhythm360/telemetry-healthcare/blob/main/DATA_ACCESS.md)
+  ([DATA_ACCESS.md](https://github.com/Rhthm360/telemetry-healthcare/blob/main/DATA_ACCESS.md)
   explains why synthetic).
 - **Feature engineering and four model families:** SVM soft-voting ensemble, gradient
   boosting, an MLP, and a random-forest/GBM/XGBoost regression ensemble.
@@ -69,7 +69,7 @@ API on one side, his app experience on the other. His perspective is in his own 
 
 ## 7. Links
 
-- Main repo: [Rhythm360/telemetry-healthcare](https://github.com/Rhythm360/telemetry-healthcare)
-- Team case study: [CASE_STUDY.md](https://github.com/Rhythm360/telemetry-healthcare/blob/main/CASE_STUDY.md)
+- Main repo: [Rhthm360/telemetry-healthcare](https://github.com/Rhthm360/telemetry-healthcare)
+- Team case study: [CASE_STUDY.md](https://github.com/Rhthm360/telemetry-healthcare/blob/main/CASE_STUDY.md)
 - My other case studies: [Midnight](https://github.com/Johaan-Mannanal/midnight-product-case-study)
 - Portfolio: [johaan.dev](https://johaan.dev)

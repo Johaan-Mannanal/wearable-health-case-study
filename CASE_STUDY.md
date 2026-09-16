@@ -6,11 +6,11 @@
 
 ## 1. Why this project
 
-Health-adjacent ML is where inflated claims go to thrive: private data, unreproducible
-numbers, and metrics that sound clinical but aren't. After research work under the guidance of
-Professor Jevelson Simenthy (Penn State), I wanted a public version that inverted the usual
-incentive — a study whose every number a stranger can reproduce from the shipped code, with
-limitations stated before results.
+Earlier research with Jevelson Simenthy, a Penn State IT instructor, explored longer-term
+cardiovascular risk patterns using Apple Watch-derived and synthetic signals. I later rebuilt
+parts of that work as a public, synthetic-data pipeline so another developer could reproduce
+the experiments without access to health records. The public benchmark is separate from that
+earlier research and does not establish performance on real wearable or patient data.
 
 ## 2. The question I scoped
 

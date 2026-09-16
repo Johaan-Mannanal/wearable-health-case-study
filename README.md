@@ -3,8 +3,10 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE)
 ![Type: documentation](https://img.shields.io/badge/type-documentation--only-blue)
 
-My role-focused case study of the wearable health telemetry project — an exploratory ML study
-on synthetic cardiovascular signals, wrapped in a full-stack demonstration. Unlike my
+My role-focused case study of a public reconstruction of earlier wearable-health research.
+The earlier work explored longer-term cardiovascular risk patterns using Apple Watch-derived
+and synthetic signals. This reconstruction uses synthetic data only and includes an ML
+pipeline, a FastAPI backend, and an iOS demonstration built with Yash Piratla. Unlike my
 [Midnight case study](https://github.com/Johaan-Mannanal/midnight-product-case-study), the
 source here is fully public: **[Rhthm360/telemetry-healthcare](https://github.com/Rhthm360/telemetry-healthcare)**.
 

@@ -32,6 +32,18 @@ end). My side of the split:
   (work-in-progress applied extra).
 - **Documentation:** model card, research notes, data-access rationale, verified metrics.
 
+## Research and implementation timeline
+
+- **August 2023 to July 2025: earlier research.** Explored aggregated Apple Watch and
+  synthetic cardiovascular signals in a Penn State collaboration with Jevelson Simenthy.
+  My work covered model comparisons, preprocessing, evaluation design, cross-validation,
+  testing, and reproducibility. That research used Python, scikit-learn, and TensorFlow.
+- **Public reconstruction:** rebuilt a reproducible pipeline using synthetic data only.
+  The public four-class neural network is scikit-learn's `MLPClassifier`, not a TensorFlow
+  model. Its 0.99 macro-F1 describes the synthetic benchmark.
+- **Applied collaboration:** built the ML pipeline and FastAPI backend alongside Yash
+  Piratla's SwiftUI iOS app. This is separate from the earlier research period.
+
 ## Verified results (from the public repo)
 
 Reproduced from the shipped code with seed 42 — source of truth is

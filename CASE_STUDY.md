@@ -6,11 +6,15 @@
 
 ## 1. Why this project
 
-Earlier research with Jevelson Simenthy, a Penn State IT instructor, explored longer-term
+From August 2023 to July 2025, research with Jevelson Simenthy, a Penn State IT instructor, explored longer-term
 cardiovascular risk patterns using Apple Watch-derived and synthetic signals. I later rebuilt
 parts of that work as a public, synthetic-data pipeline so another developer could reproduce
 the experiments without access to health records. The public benchmark is separate from that
 earlier research and does not establish performance on real wearable or patient data.
+
+The earlier research used Python, scikit-learn, and TensorFlow. The public reconstruction
+uses scikit-learn's `MLPClassifier` for its four-class neural network; the two implementation
+phases should not be treated as the same model or dataset.
 
 ## 2. The question I scoped
 
